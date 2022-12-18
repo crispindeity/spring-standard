@@ -2,7 +2,7 @@ package study.springstandard.ch2;
 
 import java.lang.reflect.Method;
 
-public class Main {
+public class PrivateMethodCall {
     public static void main(String[] args) throws Exception {
 //        Hello hello = new Hello();
 //        hello.main(); // private 이라 호출 불가
