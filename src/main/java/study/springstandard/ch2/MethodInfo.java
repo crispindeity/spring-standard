@@ -5,12 +5,6 @@ public class MethodInfo {
         Class<?> yoilTellerClass = Class.forName("study.springstandard.ch2.YoilTeller");
         Object obj = yoilTellerClass.newInstance();
         MethodInfo methodInfo = new MethodInfo();
-        methodInfo.oldOne();
-
-    }
-
-    @Deprecated(since="9")
-    public void oldOne() {
 
     }
 }
